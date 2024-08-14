@@ -1,189 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-suite",
-      "name": "Suite",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": 0.28509945756271193,
-        "pitch": 0.07052176386720532,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0050715790182352,
-          "pitch": 0.09208463824858093,
-          "rotation": 0,
-          "target": "1-suite-bedroom"
-        },
-        {
-          "yaw": -2.7717068097891904,
-          "pitch": 0.07594547067491142,
-          "rotation": 0,
-          "target": "5-corridor"
-        },
-        {
-          "yaw": 0.816909141682439,
-          "pitch": 0.2189787228399407,
-          "rotation": 0,
-          "target": "2-bathroom-bathtub"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-suite-bedroom",
-      "name": "Suite Bedroom",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": -0.08802456250419155,
-        "pitch": 0.05246273810967139,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.4501989108252964,
-          "pitch": 0.32873265994772893,
-          "rotation": 0,
-          "target": "0-suite"
-        },
-        {
-          "yaw": -2.0702251275174888,
-          "pitch": 0.12538029450718646,
-          "rotation": 0,
-          "target": "2-bathroom-bathtub"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-bathroom-bathtub",
-      "name": "Bathroom Bathtub",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.8404272673421396,
-          "pitch": 0.28269520022340444,
-          "rotation": 0,
-          "target": "1-suite-bedroom"
-        },
-        {
-          "yaw": -2.9664722540276713,
-          "pitch": 0.273659833422883,
-          "rotation": 0,
-          "target": "0-suite"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-bathroom-shower",
-      "name": "Bathroom Shower",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.84224915754125,
-          "pitch": 0.22119461640542326,
-          "rotation": 0,
-          "target": "5-corridor"
-        },
-        {
-          "yaw": -2.9596609421459608,
-          "pitch": 0.21549485564456994,
-          "rotation": 0,
-          "target": "6-room-double"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-elevators-floor",
+      "id": "0-elevators-floor",
       "name": "Elevators floor",
       "levels": [
         {
@@ -206,22 +24,22 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0,
         "pitch": 0,
+        "yaw": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.055663713773174806,
-          "pitch": 0.13820108558742383,
+          "yaw": 0.10114615025647566,
+          "pitch": 0.07509391812860855,
           "rotation": 0,
-          "target": "5-corridor"
+          "target": "1-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-corridor",
+      "id": "1-corridor",
       "name": "Corridor",
       "levels": [
         {
@@ -250,29 +68,73 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.907708366360156,
-          "pitch": 0.15937198378878925,
+          "yaw": 0.515395187766293,
+          "pitch": 0.100750871854979,
           "rotation": 0,
-          "target": "4-elevators-floor"
+          "target": "2-room-double"
         },
         {
-          "yaw": 1.471055320490522,
-          "pitch": 0.09826139276020562,
+          "yaw": 1.396337545525082,
+          "pitch": 0.19459972167331152,
           "rotation": 0,
-          "target": "0-suite"
+          "target": "3-suite"
         },
         {
-          "yaw": 0.525248346255351,
-          "pitch": 0.057565167604110457,
+          "yaw": 2.920806188852932,
+          "pitch": 0.1481523386154393,
           "rotation": 0,
-          "target": "6-room-double"
+          "target": "0-elevators-floor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-room-double",
+      "id": "2-room-double",
       "name": "Room double",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "yaw": -0.14835277587727802,
+        "pitch": 0.1723285703413424,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.512913288923503,
+          "pitch": 0.003931635211744222,
+          "rotation": 0,
+          "target": "1-corridor"
+        },
+        {
+          "yaw": 2.414697693179244,
+          "pitch": 0.47276029389067453,
+          "rotation": 0,
+          "target": "6-bathroom-shower"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-suite",
+      "name": "Suite",
       "levels": [
         {
           "tileSize": 256,
@@ -300,26 +162,164 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.424458293665988,
-          "pitch": 0.4867826250096101,
+          "yaw": 0.8224486218322333,
+          "pitch": 0.28688774742913203,
           "rotation": 0,
-          "target": "3-bathroom-shower"
+          "target": "5-bathroom-bathtub"
         },
         {
-          "yaw": 2.4728497213367557,
-          "pitch": 0.031027002149190963,
+          "yaw": 0.9516255369425277,
+          "pitch": 0.08738095504924814,
           "rotation": 0,
-          "target": "5-corridor"
+          "target": "4-suite-bedroom"
+        },
+        {
+          "yaw": -2.7094563879691513,
+          "pitch": 0.21631264430756225,
+          "rotation": 0,
+          "target": "1-corridor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-suite-bedroom",
+      "name": "Suite Bedroom",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.484249852344215,
+          "pitch": 0.29469663322325346,
+          "rotation": 0,
+          "target": "3-suite"
+        },
+        {
+          "yaw": -2.064100737937032,
+          "pitch": 0.24326231140188526,
+          "rotation": 0,
+          "target": "5-bathroom-bathtub"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-bathroom-bathtub",
+      "name": "Bathroom Bathtub",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.841213762988274,
+          "pitch": 0.2557773541957289,
+          "rotation": 0,
+          "target": "4-suite-bedroom"
+        },
+        {
+          "yaw": -2.965865973536461,
+          "pitch": 0.23531659803419558,
+          "rotation": 0,
+          "target": "3-suite"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-bathroom-shower",
+      "name": "Bathroom Shower",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.9475754113458805,
+          "pitch": 0.18089738276789014,
+          "rotation": 0,
+          "target": "1-corridor"
+        },
+        {
+          "yaw": 2.8394513938650645,
+          "pitch": 0.19280114250571323,
+          "rotation": 0,
+          "target": "2-room-double"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Wilkes Barre v2",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
