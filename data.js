@@ -24,8 +24,8 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 3.1278073463129985,
-        "pitch": 0.056541495979210765,
+        "yaw": 2.2326173988784985,
+        "pitch": 0.006368689782064507,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
@@ -51,16 +51,16 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 1.6767648389841998,
-        "pitch": 0.031449926456392774,
-        "fov": 1.5707963267948966
+        "yaw": 1.9820187950790444,
+        "pitch": 0.021323690775643556,
+        "fov": 1.5901380835552332
       },
       "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "2-breakfast",
-      "name": "Breakfast",
+      "id": "2-breakfast-area",
+      "name": "Breakfast area",
       "levels": [
         {
           "tileSize": 256,
@@ -109,16 +109,16 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 0.42012664664811794,
+        "pitch": -0.06770673822391515,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "4-bedroom-double",
-      "name": "Bedroom double",
+      "id": "4-double-bedroom",
+      "name": "Double bedroom",
       "levels": [
         {
           "tileSize": 256,
@@ -140,16 +140,16 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": -0.5181561975326865,
+        "pitch": 0.4868740201924062,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "5-bedroom-suite",
-      "name": "Bedroom suite",
+      "id": "5-suite-bedroom",
+      "name": "Suite bedroom",
       "levels": [
         {
           "tileSize": 256,
@@ -171,8 +171,8 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": -0.31748313645829285,
+        "pitch": 0.13913013328548374,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
@@ -244,7 +244,7 @@ var APP_DATA = {
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
